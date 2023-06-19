@@ -1,0 +1,5 @@
+km=float(input('Qual foi a quantidade de Km rodados? '))
+d=int(input('quantos dias o carro ficou alugado? '))
+vkm=(km*0.15)
+vd=(d*60)
+print('o valor total sobre os Km rodados é de R${:.2f}\nO valor total sobre os dias alugados é de R${:.2f}\nTotal a pagar pelo aluguel é R${:.2f}'.format(vkm,vd,(vkm+vd)))
